@@ -4,7 +4,7 @@
 
 require "mkmf"
 
-$CFLAGS << " -Wall -O3 -pedantic -std=c99 -mbmi -mbmi2 -march=haswell"
+$CFLAGS << " -Wall -O3 -pedantic -std=c99 -mbmi -mbmi2 -march=native"
 
 create_makefile "x25519_precomputed"
 
