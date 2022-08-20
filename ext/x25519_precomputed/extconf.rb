@@ -4,7 +4,7 @@
 
 require "mkmf"
 
-$CFLAGS << " -Wall -O3 -pedantic -std=c99 -mbmi -mbmi2 -march=native"
+$CFLAGS << " -Wall -O3 -pedantic -std=c99 -mbmi -mbmi2 -target arm64-apple-macos11"
 
 create_makefile "x25519_precomputed"
 
